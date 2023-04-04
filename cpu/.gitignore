@@ -13,6 +13,3 @@ Release/
 
 # CLion files
 .idea/
-
-# Visual Studio Code files
-.vscode/
