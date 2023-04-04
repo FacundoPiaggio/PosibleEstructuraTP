@@ -11,7 +11,12 @@ int main(int argc, char *argv[]) {
     configuracion_kernel = obtener_valores_de_configuracion_kernel(kernel_config);
     mostrar_valores_de_configuracion_kernel(configuracion_kernel);
     
+    int socket_memoria = conectar_con_memoria(configuracion_kernel);
+    // conectar_con_cpu
+    // conectar_con_filesystem
 
+    // conectar_con_consola(s)
+    // conexion_con_consolas(configuracion_kernel);
 
     log_destroy(logger_kernel);
     config_destroy(kernel_config);

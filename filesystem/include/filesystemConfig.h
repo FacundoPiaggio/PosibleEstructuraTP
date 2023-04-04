@@ -7,8 +7,8 @@
 
 typedef struct{
     char* IP_MEMORIA;
-    int PUERTO_MEMORIA;
-    int PUERTO_ESCUCHA;
+    char* PUERTO_MEMORIA;
+    char* PUERTO_ESCUCHA;
     char* PATH_SUPERBLOQUE;
     char* PATH_BITMAP;
     char* PATH_BLOQUES;

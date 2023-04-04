@@ -1,5 +1,6 @@
 #include <main.h>
 
+int socket_kernel;
 
 int main(int argc, char *argv[]) {
 
@@ -10,7 +11,10 @@ int main(int argc, char *argv[]) {
     configuracion_consola = obtener_valores_de_configuracion_consola(consola_config);
     mostrar_valores_de_configuracion_consola(configuracion_consola); 
     
-
+    if(conectar_con_kernel() == SUCCESS)
+    {
+        
+    }
 
     log_destroy(logger_consola);
     config_destroy(consola_config);

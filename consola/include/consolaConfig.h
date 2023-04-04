@@ -8,7 +8,7 @@ extern int prueba;
 
 typedef struct{
    char* IP_KERNEL;
-   int PUERTO_KERNEL;
+   char* PUERTO_KERNEL;
 }config_de_consola;
 
 extern config_de_consola configuracion_consola;

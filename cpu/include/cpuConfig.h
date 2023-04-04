@@ -9,8 +9,8 @@
 typedef struct{
     int RETARDO_INSTRUCCION;
     char* IP_MEMORIA;
-    int PUERTO_MEMORIA;
-    int PUERTO_ESCUCHA;
+    char* PUERTO_MEMORIA;
+    char* PUERTO_ESCUCHA;
     int TAM_MAX_SEGMENTO;
 }config_de_cpu;
 
